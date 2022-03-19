@@ -58,7 +58,7 @@ function LoadPosts(){
 
 function Post(props){
   return (
-    <div style={{backgroundColor: 'lightgray', margin: '10px', padding: '20px', border: '4px solid salmon'}}>
+    <div style={{backgroundColor: 'lightgray', margin: '20px', padding: '20px', border: '4px solid salmon', borderRadius: '10px'}}>
       <h2>Title: {props.title}</h2>
       <p>Body: {props.body}</p>
     </div>
